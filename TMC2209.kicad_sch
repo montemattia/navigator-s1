@@ -509,6 +509,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_TVS_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_TVS_Filled"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS thyrector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_TVS_Filled_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "D_TVS_Filled_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -1471,6 +1633,12 @@
 		(uuid "6c4bddaf-42fd-4a9b-8243-500be92d82a3")
 	)
 	(junction
+		(at 181.61 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72d91149-fb96-43b1-acc6-67f571f9977a")
+	)
+	(junction
 		(at 118.11 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1489,6 +1657,12 @@
 		(uuid "8e044e54-0d37-4957-abbf-7e32c90d98bf")
 	)
 	(junction
+		(at 179.07 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97f8680a-1c94-450f-a972-5942327a3fa7")
+	)
+	(junction
 		(at 165.1 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1501,10 +1675,22 @@
 		(uuid "a101ea64-bd7a-4e04-9667-ff21e2cfc9ed")
 	)
 	(junction
+		(at 184.15 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4215c13-5f7d-423e-bc1f-459ce03121e5")
+	)
+	(junction
 		(at 199.39 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3b94a88-0fbf-472f-a92a-36fd3c7b1b68")
+	)
+	(junction
+		(at 176.53 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5f7186f-4a7c-47dc-a35d-df5c82ac5478")
 	)
 	(junction
 		(at 95.25 74.93)
@@ -1543,6 +1729,16 @@
 	(no_connect
 		(at 146.05 90.17)
 		(uuid "82b8e92f-5730-4b98-be53-949edfccfb0e")
+	)
+	(wire
+		(pts
+			(xy 176.53 105.41) (xy 233.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0079696b-58ff-4e8b-af30-edbb5260a2a3")
 	)
 	(wire
 		(pts
@@ -1626,6 +1822,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 91.44) (xy 181.61 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10eb09ac-697e-4a26-aee2-073c1aa1291e")
+	)
+	(wire
+		(pts
 			(xy 96.52 87.63) (xy 106.68 87.63)
 		)
 		(stroke
@@ -1646,6 +1852,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 93.98) (xy 184.15 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1644991d-0d86-464c-b964-dd234a40aa77")
+	)
+	(wire
+		(pts
 			(xy 161.29 138.43) (xy 165.1 138.43)
 		)
 		(stroke
@@ -1653,6 +1869,16 @@
 			(type default)
 		)
 		(uuid "173cc4ae-dc40-4c01-b6d7-d177b3e65892")
+	)
+	(wire
+		(pts
+			(xy 184.15 101.6) (xy 184.15 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a98ff56-1211-4500-b295-f9288fed787c")
 	)
 	(wire
 		(pts
@@ -1806,6 +2032,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 91.44) (xy 181.61 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a58e108-193c-4322-93e2-9402191bfb21")
+	)
+	(wire
+		(pts
 			(xy 118.11 72.39) (xy 118.11 74.93)
 		)
 		(stroke
@@ -1823,6 +2059,16 @@
 			(type default)
 		)
 		(uuid "3e5bf0c1-906b-41fa-bcd9-d43f66b6d5cb")
+	)
+	(wire
+		(pts
+			(xy 176.53 93.98) (xy 176.53 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d9bfcb-d2a1-4ca6-898b-f432ecc14695")
 	)
 	(wire
 		(pts
@@ -1856,6 +2102,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 101.6) (xy 176.53 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c946c51-231e-4f8c-95b8-cf912d9151fa")
+	)
+	(wire
+		(pts
 			(xy 106.68 72.39) (xy 106.68 74.93)
 		)
 		(stroke
@@ -1886,23 +2142,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 115.57) (xy 199.39 115.57)
+			(xy 146.05 115.57) (xy 184.15 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "585b5d90-2629-49a2-bfa8-379a53acf1ef")
-	)
-	(wire
-		(pts
-			(xy 146.05 105.41) (xy 233.68 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "632f00e0-130b-4c0a-bbba-376d299ba7fd")
 	)
 	(wire
 		(pts
@@ -1913,6 +2159,16 @@
 			(type default)
 		)
 		(uuid "66d86838-86eb-4d12-a93a-d2b6ecbd577b")
+	)
+	(wire
+		(pts
+			(xy 181.61 113.03) (xy 210.82 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a4e91a-3289-4b7c-ba31-4c343f1e4726")
 	)
 	(wire
 		(pts
@@ -1943,6 +2199,26 @@
 			(type default)
 		)
 		(uuid "744cbc4e-c2a0-447b-93ab-c3371ff8b4d7")
+	)
+	(wire
+		(pts
+			(xy 184.15 115.57) (xy 199.39 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774d9958-03f6-420d-9bd0-b48f850d2568")
+	)
+	(wire
+		(pts
+			(xy 146.05 107.95) (xy 179.07 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c7082d-5c50-42f9-9798-f6d3e385cea5")
 	)
 	(wire
 		(pts
@@ -2016,16 +2292,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 107.95) (xy 222.25 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "897fbc05-d981-4d75-85d0-b8d2f16da7b4")
-	)
-	(wire
-		(pts
 			(xy 80.01 64.77) (xy 83.82 64.77)
 		)
 		(stroke
@@ -2043,6 +2309,16 @@
 			(type default)
 		)
 		(uuid "8f6b2b59-818b-497a-aacd-9dc349480d46")
+	)
+	(wire
+		(pts
+			(xy 179.07 107.95) (xy 222.25 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d9dee0-4bb5-48b1-8bc3-0867e5249f85")
 	)
 	(wire
 		(pts
@@ -2116,6 +2392,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 91.44) (xy 179.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4e6403-9d79-4d10-9dc8-cc640f3bba7c")
+	)
+	(wire
+		(pts
 			(xy 165.1 123.19) (xy 161.29 123.19)
 		)
 		(stroke
@@ -2136,7 +2422,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 113.03) (xy 210.82 113.03)
+			(xy 146.05 113.03) (xy 181.61 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2163,6 +2449,16 @@
 			(type default)
 		)
 		(uuid "b7ba679c-9003-4342-90ce-f385741eb806")
+	)
+	(wire
+		(pts
+			(xy 179.07 91.44) (xy 179.07 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f098fa-6b2d-4302-8c7c-af0e76a85b97")
 	)
 	(wire
 		(pts
@@ -2263,6 +2559,16 @@
 			(type default)
 		)
 		(uuid "d3a5672e-8198-4eea-86ef-06f435406138")
+	)
+	(wire
+		(pts
+			(xy 146.05 105.41) (xy 176.53 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d580f1df-42bb-428c-9df0-447b9b3ab823")
 	)
 	(wire
 		(pts
@@ -2859,6 +3165,76 @@
 			(project "Navigator S1"
 				(path "/c978ef74-ad4b-4bd0-81cb-39647b7420fd/597e355c-94e8-4d33-823e-4b2bcbc66d21"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 176.53 97.79 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "200452b3-5645-48ef-b487-ee8b295374ce")
+		(property "Reference" "D12"
+			(at 173.99 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ18CA"
+			(at 173.99 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 176.53 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b20cbfd5-f2e3-41f8-b6f3-24ecf0a6e037")
+		)
+		(pin "2"
+			(uuid "58d7fd54-762a-45b3-a2c5-598653f99a7f")
+		)
+		(instances
+			(project "Navigator S1"
+				(path "/c978ef74-ad4b-4bd0-81cb-39647b7420fd/597e355c-94e8-4d33-823e-4b2bcbc66d21"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3849,6 +4225,76 @@
 			(project "Navigator S1"
 				(path "/c978ef74-ad4b-4bd0-81cb-39647b7420fd/597e355c-94e8-4d33-823e-4b2bcbc66d21"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_TVS_Filled")
+		(at 184.15 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0158674-6ece-492d-b419-75624babcab7")
+		(property "Reference" "D11"
+			(at 186.69 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMBJ18CA"
+			(at 186.69 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(at 184.15 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ede58069-1062-41e7-a14e-339c94acc943")
+		)
+		(pin "2"
+			(uuid "dc846fa6-4e68-49f4-bd36-e9a9c68e7a1b")
+		)
+		(instances
+			(project ""
+				(path "/c978ef74-ad4b-4bd0-81cb-39647b7420fd/597e355c-94e8-4d33-823e-4b2bcbc66d21"
+					(reference "D11")
 					(unit 1)
 				)
 			)
